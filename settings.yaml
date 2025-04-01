@@ -1,0 +1,15 @@
+---
+server:
+  hostname: foreman
+  cpu: 1
+  memory: 4096
+support_user: support
+network:
+  ip: '192.168.1.20'
+  domain: 'abccorp.local'
+bridge:
+  enable: true
+  device: enp9s0
+software:
+  box: bento/ubuntu-22.04
+  foreman: 3.14
