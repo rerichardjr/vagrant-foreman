@@ -68,7 +68,7 @@ vagrant --version
 
 - **Server**: 
   - `foreman`: `192.168.1.20`
-- **Vagrant Box**: Uses a base box (e.g., `bento/ubuntu-22.04`) with ScyllaDB installed via provisioning scripts.
+- **Vagrant Box**: Uses a base box (e.g., `bento/ubuntu-22.04`) with Foreman installed via provisioning scripts.
 - **Network**: Bridged with static IP.
 
 ## Cleaning Up
